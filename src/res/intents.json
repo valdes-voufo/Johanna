@@ -1,0 +1,74 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hey",
+        "bonjour",
+        "bonsoir",
+        "salut",
+        "Hello"
+      ],
+      "responses": [
+        "Bonjour mr",
+        "Bonjour mr que puis je faire pour toi ?"
+      ]
+    },
+
+     {
+      "tag": "create_note",
+      "patterns": [
+        "creer une note",
+        "ajouter une tache",
+        "nouvele tache",
+        "noter"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+
+     {
+      "tag": "play_Music",
+      "patterns": [
+        "music",
+        "jouer la music",
+        "ecouter la music",
+        "music"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "search",
+      "patterns": [
+        "faire une recherche",
+        "rechercher quelque chose",
+        "chercher sur le net",
+        "chercher sur wolipedia",
+        "information sur",
+        "avoir les informations"
+      ],
+      "responses": [
+        ""
+      ]
+    },
+
+    {
+      "tag": "merci",
+      "patterns": [
+        "merci",
+        "je te remerci",
+        "merci beaucoup"
+      ],
+      "responses": [
+        ""
+      ]
+    }
+
+
+
+  ]
+}

@@ -1,0 +1,36 @@
+Calendar
+connect the Johana with Google Calendar via the Google API
+https://developers.google.com/calendar/api/quickstart/python
+
+----> the Johana is permanently connected  to the Google Calendar account of the User
+----> the  task will be directly save online
+----> the user can consult his calendar either  on Google calendar or can ask Johana
+
+
+use case:
+start
+user : Hi johana, I want to add a new task to my Calendar
+
+Johana : which task do you want to add to your Calendar ?My Project 18926
+User : Upendo-Meeting
+
+Johana : which day ?
+user :  on Monday   //here make sur that what johana Recognize is a day
+
+Johana : which time ?
+user :   at 6 pm    //here make sur that what johana Recognize is a time
+
+johana : how  much time ?
+user : 2 hours            //here make sur that what johana Recognize is a  number of our
+
+johana :  okay , i save the task : you have a an Appointment on ..... at..... for ...hours right ?
+User : no   // go to  start
+
+
+
+here
+how to recognize date and other things and train our Model
+ https://www.youtube.com/watch?v=1lwddP0KUEg
+
+
+
