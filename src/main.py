@@ -35,6 +35,11 @@ mapping = {"greeting": greeting,
 assistant = GenericAssistant('res/intents.json', intent_methods=mapping)
 assistant.train_model()
 # assistant.load_model()
+
+
+
+
+
 output_.speak("bonjour patron")
 while True:
     with sr.Microphone() as source:
