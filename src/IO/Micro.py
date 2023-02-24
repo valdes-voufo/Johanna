@@ -8,7 +8,7 @@ import speech_recognition as sr
 from src.IO.Output import Output
 
 
-class Input:
+class Micro:
     def __init__(self, output_):
         self.language = "fr-FR"
         self.listener = sr.Recognizer()

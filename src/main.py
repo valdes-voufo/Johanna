@@ -1,8 +1,7 @@
-
 from src.Functions.Calendar import Calendar
 from src.Functions.Music import Music
 from src.Functions.Search import Search
-from src.IO.Input import Input
+from src.IO.Micro import Input
 from src.IO.Output import Output
 import speech_recognition as sr
 from neuralintents import GenericAssistant
@@ -13,7 +12,7 @@ calendar_ = Calendar(input_, output_)
 musicPlayer_ = Music(input_, output_)
 search_ = Search(input_, output_)
 
-# traduire le texte avant de ausgeben
+
 def greeting():
     output_.speak(" bonjour,patron , comment puis-je t'aider")
 
@@ -35,9 +34,6 @@ mapping = {"greeting": greeting,
 assistant = GenericAssistant('res/intents.json', intent_methods=mapping)
 assistant.train_model()
 # assistant.load_model()
-
-
-
 
 
 output_.speak("bonjour patron")
